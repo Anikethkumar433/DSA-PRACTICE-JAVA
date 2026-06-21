@@ -1,6 +1,6 @@
 package HashMap;
 import java.util.*;
-public class HashMapBasic {
+public class HashSetBasic {
     public static void main(String[] args){
         // first the arraysize to be taken as input
         // next the array is taken as input

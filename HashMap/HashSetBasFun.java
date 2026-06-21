@@ -1,7 +1,7 @@
 package HashMap;
 import java.util.*;
 
-public class HashMapBasFun {
+public class HashSetBasFun {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         HashSet<Integer> Set = new HashSet<>();
@@ -12,5 +12,12 @@ public class HashMapBasFun {
         Set.remove(65);
         System.out.println(Set.contains(65));
         System.out.println(Set.size());
+        // to clear all the elements in the set
+         Set.clear();
+         // to traverse and print all the elements in the set
+         // as it will print{} so we can use for each loop 
+         for(int ele: Set){
+            System.out.println(ele + " ");
+         }
     }
 }
